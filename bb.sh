@@ -16,25 +16,25 @@ global_config=".config"
 # This function will load all the variables defined here. They might be overridden
 # by the 'global_config' file contents
 global_variables() {
-    global_software_name="BashBlog"
+    global_software_name="Software Blog"
     global_software_version="2.10"
 
     # Blog title
-    global_title="My fancy blog"
+    global_title="Software Blog"
     # The typical subtitle for each blog
-    global_description="A blog about turtles and carrots"
+    global_description="A blog about software"
     # The public base URL for this blog
     global_url="http://example.com/blog"
 
     # Your name
-    global_author="John Smith"
+    global_author="Theodore Zervakis"
     # You can use twitter or facebook or anything for global_author_url
-    global_author_url="http://twitter.com/example" 
+#    global_author_url="http://twitter.com/example" 
     # Your email
-    global_email="john@smith.com"
+    global_email="p19zerv@ionio.gr"
 
     # CC by-nc-nd is a good starting point, you can change this to "&copy;" for Copyright
-    global_license="CC by-nc-nd"
+#    global_license="CC by-nc-nd"
 
     # If you have a Google Analytics ID (UA-XXXXX) and wish to use the standard
     # embedding code, put it on global_analytics
@@ -53,9 +53,9 @@ global_variables() {
     global_twitter_card_image=""
     # Set this to false for a Twitter button with share count. The cookieless version
     # is just a link.
-    global_twitter_cookieless="true"
+ #   global_twitter_cookieless="true"
     # Default search page, where tweets more than a week old are hidden
-    global_twitter_search="twitter"
+  #  global_twitter_search="twitter"
 
     # Change this to your disqus username to use disqus for comments
     global_disqus_username=""

@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="main.css" type="text/css" />
+<link rel="stylesheet" href="blog.css" type="text/css" />
+<link rel="alternate" type="application/rss+xml" title="Subscribe to this page..." href="feed.rss" />
+<title>Software Blog &mdash; Posts tagged "systemd"</title>
+</head><body>
+<div id="divbodyholder">
+<div class="headerholder"><div class="header">
+<div id="title">
+<h1 class="nomargin"><a class="ablack" href="http://example.com/blog/index.html">Software Blog</a></h1>
+<div id="description">A blog about software</div>
+</div></div></div>
+<div id="divbody"><div class="content">
+<h3><a class="ablack" href="h1-systemd-h1.html">
+<h1> Systemd </h1>
+</a></h3>
+<!-- bashblog_timestamp: #202304172124.48# -->
+<div class="subtitle">April 17, 2023 &mdash; 
+Theodore Zervakis
+</div>
+<!-- text begin -->
+
+<p>Το systemd είναι ένα αρχιτεκτονικό σύστημα προτύπου για τον έλεγχο της διαχείρισης των διαδικασιών και των υπηρεσιών στο λειτουργικό σύστημα Linux. Αν και έχει εισαχθεί ως μια βελτίωση σε σύγκριση με τον παραδοσιακό SysV init, πολλοί θεωρούν το systemd πολύπλοκο λόγω των ακόλουθων λόγων:
+
+Ευρεία λειτουργικότητα: Το systemd προσφέρει μια ευρεία γκάμα λειτουργιών και δυνατοτήτων, όπως το διαχωρισμό των υπηρεσιών σε slices, το δυναμικό loading των προφίλ εκκίνησης, το journal logging και πολλά άλλα. Αυτό μπορεί να καταστήσει το σύστημα περίπλοκο για τους αρχάριους χρήστες ή για τους διαχειριστές που δεν είναι εξοικειωμένοι με το systemd. Λόγω του journal logging του systemd, το οποίο καταγράφει τα logs σε ένα κεντρικό δομημένο αρχείο, η διαδικασία εντοπισμού και επίλυσης προβλημάτων μπορεί να γίνει πιο περίπλοκη σε σχέση με το παραδοσιακό logging συστήματος του SysV init, προσθέτοντας ένα επιπλέον επίπεδο πολυπλοκότητας στη διαχείριση σφαλμάτων και προβλημάτων στο σύστημα.
+
+Αλλαγή στον τρόπο λειτουργίας: Το systemd αλλάζει τον τρόπο λειτουργίας των υπηρεσιών σε σχέση με τον παραδοσιακό SysV init. Αντί να χρησιμοποιεί απλούς αρχείους ελέγχου για την εκκίνηση και τη διαχείριση των υπηρεσιών, το systemd χρησιμοποιεί μια σύνθετη δομή αρχείων ρυθμίσεων, όπως τα αρχεία service και target units, τα οποία μπορούν να παραμετροποιηθούν ανάλογα.</p>
+
+<p>Tags: <a href='tag_systemd.html'>systemd</a>, <a href='tag_sysvinit.html'>sysvinit</a>, <a href='tag_systemd-vs-sysvinit.html'>systemd-vs-sysvinit</a></p>
+<!-- text end -->
+</div>
+<div id="footer"> <a href="">Theodore Zervakis</a> &mdash; <a href="mailto:p19zerv&#64;ionio&#46;gr">p19zerv&#64;ionio&#46;gr</a><br/>
+Generated with <a href="https://github.com/cfenollosa/bashblog">bashblog</a>, a single bash script to easily create blogs like this one</div>
+</div></div>
+</body></html>
